@@ -24,19 +24,24 @@ client.create_collection(
 print(f"Collection '{collection_name}' created.")
 
 # Load articles data
-with open("data/articles.json", "r") as f:
+with open("data/articles10k.json", "r") as f:
     articles = json.load(f)
 
-# Prepare points for upsert
-points = []
-for article in articles:
-    # Generate a UUID for the article ID
-    article_id = str(uuid.uuid4())
-    embedding = model.encode(article["title"] + article["summary"])
-    points.append(
-        PointStruct(id=article_id, vector=embedding.tolist(), payload=article)
-    )
+# Prepare points for upsert in batches
+batch_size = 2000
+total_articles = len(articles)
+for i in range(0, total_articles, batch_size):
+    batch = articles[i : i + batch_size]
+    points = []
+    for article in batch:
+        # Generate a UUID for the article ID
+        article_id = str(uuid.uuid4())
+        embedding = model.encode(article["title"] + article["summary"])
+        points.append(
+            PointStruct(id=article_id, vector=embedding.tolist(), payload=article)
+        )
+    # Upsert the current batch into the collection
+    client.upsert(collection_name, points=points)
+    print(f"Seeded batch {i // batch_size + 1} with {len(points)} articles.")
 
-# Upsert points into the collection
-client.upsert(collection_name, points=points)
-print(f"Seeded {len(points)} articles into Qdrant.")
+print(f"Total Seeded {total_articles} articles into Qdrant.")
