@@ -31,7 +31,7 @@ def health_check():
     return {"status": "ok"}
 
 
-@app.post("/recommendations")
+@app.post("/recommendtest")
 def get_recommendations(req: RecommendationRequest):
     return {"message": "Personalized recommendations (stub)", "input": req.dict()}
 
