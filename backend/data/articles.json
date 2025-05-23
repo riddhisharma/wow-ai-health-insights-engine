@@ -1,0 +1,1033 @@
+[
+	{
+		"id": "1",
+		"title": "A Guide to Substance Use Disorder Help",
+		"summary": "Learn more about how to follow essential health guidelines during pregnancy.",
+		"tags": [
+			"addiction",
+			"substance use",
+			"recovery"
+		],
+		"conditions": [
+			"substance use disorder",
+			"addiction"
+		],
+		"age_group": "infant",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "American Cancer Society"
+	},
+	{
+		"id": "2",
+		"title": "A Guide to Kidney Disease Diet",
+		"summary": "Identify early warning signs of Alzheimer's disease.",
+		"tags": [
+			"kidney disease",
+			"diet",
+			"renal health"
+		],
+		"conditions": [
+			"periodontal disease",
+			"dental caries"
+		],
+		"age_group": "geriatric",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "Arthritis Foundation"
+	},
+	{
+		"id": "3",
+		"title": "How to: Adolescent Mental Health",
+		"summary": "Learn more about how to adapt to hearing loss with assistive devices and strategies.",
+		"tags": [
+			"mental health",
+			"depression",
+			"symptoms"
+		],
+		"conditions": [
+			"diabetic neuropathy",
+			"peripheral vascular disease"
+		],
+		"age_group": "adolescent",
+		"language": "en",
+		"literacy_level": "high",
+		"source": "Arthritis Foundation"
+	},
+	{
+		"id": "4",
+		"title": "A Guide to Heart Attack Warning Signs",
+		"summary": "This resource helps you find ways to manage energy with chronic fatigue syndrome.",
+		"tags": [
+			"cardiovascular",
+			"heart attack",
+			"emergency"
+		],
+		"conditions": [
+			"cancer",
+			"various types"
+		],
+		"age_group": "young adult",
+		"language": "fr",
+		"literacy_level": "low",
+		"source": "American Heart Association"
+	},
+	{
+		"id": "5",
+		"title": "How to: Coping with Chronic Pain",
+		"summary": "Important information to help you discover pain management techniques that don't rely on medication.",
+		"tags": [
+			"chronic pain",
+			"fibromyalgia",
+			"pain management"
+		],
+		"conditions": [
+			"chronic pain"
+		],
+		"age_group": "middle-aged",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "Cleveland Clinic"
+	},
+	{
+		"id": "6",
+		"title": "Understanding Preventing Falls in Seniors",
+		"summary": "This resource helps you make home modifications to prevent falls in older adults.",
+		"tags": [
+			"neurology",
+			"parkinson's",
+			"caregiving"
+		],
+		"conditions": [
+			"pregnancy",
+			"prenatal care"
+		],
+		"age_group": "older adult",
+		"language": "pt",
+		"literacy_level": "high",
+		"source": "Arthritis Foundation"
+	},
+	{
+		"id": "7",
+		"title": "Prenatal Care Guidelines",
+		"summary": "Learn more about how to prevent foot complications with proper diabetic foot care.",
+		"tags": [
+			"pregnancy",
+			"prenatal care",
+			"women's health"
+		],
+		"conditions": [
+			"pregnancy",
+			"prenatal care"
+		],
+		"age_group": "adult",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "American Heart Association"
+	},
+	{
+		"id": "8",
+		"title": "How to: Newborn Care Basics",
+		"summary": "Learn more about how to learn essential care for your newborn baby.",
+		"tags": [
+			"pediatrics",
+			"newborn care",
+			"infant health"
+		],
+		"conditions": [
+			"newborn care"
+		],
+		"age_group": "child",
+		"language": "es",
+		"literacy_level": "low",
+		"source": "American Heart Association"
+	},
+	{
+		"id": "9",
+		"title": "A Guide to Substance Use Disorder Help",
+		"summary": "Important information to help you compare effective methods to quit smoking for good.",
+		"tags": [
+			"addiction",
+			"substance use",
+			"recovery"
+		],
+		"conditions": [
+			"substance use disorder",
+			"addiction"
+		],
+		"age_group": "infant",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "American Cancer Society"
+	},
+	{
+		"id": "10",
+		"title": "How to: Preventing Falls in Seniors",
+		"summary": "Important information to help you follow proper recovery protocols after a concussion.",
+		"tags": [
+			"stroke",
+			"emergency",
+			"brain health"
+		],
+		"conditions": [
+			"pregnancy"
+		],
+		"age_group": "geriatric",
+		"language": "en",
+		"literacy_level": "high",
+		"source": "American Diabetes Association"
+	},
+	{
+		"id": "11",
+		"title": "Schizophrenia Treatment Approaches",
+		"summary": "Prevent foot complications with proper diabetic foot care.",
+		"tags": [
+			"infectious disease",
+			"HIV",
+			"treatment"
+		],
+		"conditions": [
+			"schizophrenia"
+		],
+		"age_group": "adolescent",
+		"language": "en",
+		"literacy_level": "high",
+		"source": "MedlinePlus"
+	},
+	{
+		"id": "12",
+		"title": "Concussion Recovery Guidelines",
+		"summary": "Learn more about how to follow dietary guidelines for kidney health and disease management.",
+		"tags": [
+			"neurology",
+			"concussion",
+			"brain injury"
+		],
+		"conditions": [
+			"concussion",
+			"traumatic brain injury"
+		],
+		"age_group": "young adult",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "WHO"
+	},
+	{
+		"id": "13",
+		"title": "How to: Alzheimer's Disease: Early Signs",
+		"summary": "This resource helps you learn about autism spectrum disorder signs and support.",
+		"tags": [
+			"neurology",
+			"alzheimer's",
+			"memory"
+		],
+		"conditions": [
+			"alzheimer's disease",
+			"dementia"
+		],
+		"age_group": "adolescent",
+		"language": "hi",
+		"literacy_level": "medium",
+		"source": "UpToDate"
+	},
+	{
+		"id": "14",
+		"title": "Understanding Alzheimer's Disease: Early Signs",
+		"summary": "Important information to help you identify warning signs of anorexia, bulimia, and binge eating.",
+		"tags": [
+			"neurology",
+			"alzheimer's",
+			"memory"
+		],
+		"conditions": [
+			"alzheimer's disease",
+			"dementia"
+		],
+		"age_group": "child",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "Johns Hopkins Medicine"
+	},
+	{
+		"id": "15",
+		"title": "HIV/AIDS Treatment Today",
+		"summary": "This resource helps you prevent migraines by identifying and avoiding triggers.",
+		"tags": [
+			"infectious disease",
+			"HIV",
+			"treatment"
+		],
+		"conditions": [
+			"HIV/AIDS"
+		],
+		"age_group": "infant",
+		"language": "en",
+		"literacy_level": "medium",
+		"source": "Cleveland Clinic"
+	},
+	{
+		"id": "16",
+		"title": "How to: Managing Chronic Fatigue",
+		"summary": "This resource helps you find ways to manage energy with chronic fatigue syndrome.",
+		"tags": [
+			"chronic fatigue",
+			"energy management",
+			"quality of life"
+		],
+		"conditions": [
+			"prostate health",
+			"benign prostatic hyperplasia"
+		],
+		"age_group": "older adult",
+		"language": "zh",
+		"literacy_level": "high",
+		"source": "Cleveland Clinic"
+	},
+	{
+		"id": "17",
+		"title": "How to: Smoking Cessation Methods",
+		"summary": "This resource helps you make home modifications to prevent falls in older adults.",
+		"tags": [
+			"smoking cessation",
+			"tobacco",
+			"addiction"
+		],
+		"conditions": [
+			"schizophrenia"
+		],
+		"age_group": "all ages",
+		"language": "en",
+		"literacy_level": "high",
+		"source": "Arthritis Foundation"
+	},
+	{
+		"id": "18",
+		"title": "Anxiety Disorder Basics",
+		"summary": "Learn more about how to learn the difference between normal worry and anxiety disorders.",
+		"tags": [
+			"mental health",
+			"anxiety",
+			"emotional wellness"
+		],
+		"conditions": [
+			"anxiety disorder",
+			"generalized anxiety disorder"
+		],
+		"age_group": "young adult",
+		"language": "zh",
+		"literacy_level": "low",
+		"source": "MedlinePlus"
+	},
+	{
+		"id": "19",
+		"title": "A Guide to Anxiety Disorder Basics",
+		"summary": "Learn more about how to understand prostate health screening recommendations by age.",
+		"tags": [
+			"mental health",
+			"anxiety",
+			"emotional wellness"
+		],
+		"conditions": [
+			"anxiety disorder",
+			"generalized anxiety disorder"
+		],
+		"age_group": "geriatric",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "American Lung Association"
+	},
+	{
+		"id": "20",
+		"title": "Celiac Disease Diet Guide",
+		"summary": "This resource helps you improve digestive health with diet and lifestyle changes.",
+		"tags": [
+			"digestive disorders",
+			"celiac disease",
+			"gluten-free"
+		],
+		"conditions": [
+			"celiac disease"
+		],
+		"age_group": "adult",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "Cleveland Clinic"
+	},
+	{
+		"id": "21",
+		"title": "Understanding Autism Spectrum Awareness",
+		"summary": "Follow essential health guidelines during pregnancy.",
+		"tags": [
+			"developmental disorders",
+			"autism",
+			"pediatric"
+		],
+		"conditions": [
+			"anorexia",
+			"bulimia",
+			"binge eating disorder"
+		],
+		"age_group": "child",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "American Academy of Family Physicians"
+	},
+	{
+		"id": "22",
+		"title": "Managing Type 2 Diabetes",
+		"summary": "Learn more about how to find treatment options for alcohol and drug addiction.",
+		"tags": [
+			"vision",
+			"aging",
+			"eye health"
+		],
+		"conditions": [
+			"type 2 diabetes"
+		],
+		"age_group": "older adult",
+		"language": "bn",
+		"literacy_level": "medium",
+		"source": "American Diabetes Association"
+	},
+	{
+		"id": "23",
+		"title": "How to: Smoking Cessation Methods",
+		"summary": "Learn more about how to compare effective methods to quit smoking for good.",
+		"tags": [
+			"smoking cessation",
+			"tobacco",
+			"addiction"
+		],
+		"conditions": [
+			"periodontal disease",
+			"dental caries"
+		],
+		"age_group": "all ages",
+		"language": "en",
+		"literacy_level": "high",
+		"source": "WebMD"
+	},
+	{
+		"id": "24",
+		"title": "How to: Dental Health Basics",
+		"summary": "Learn to manage asthma triggers and use inhalers correctly.",
+		"tags": [
+			"dental health",
+			"oral hygiene",
+			"preventive care"
+		],
+		"conditions": [
+			"crohn's disease",
+			"inflammatory bowel disease"
+		],
+		"age_group": "young adult",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "Alzheimer's Association"
+	},
+	{
+		"id": "25",
+		"title": "Managing Chronic Fatigue",
+		"summary": "Find ways to manage energy with chronic fatigue syndrome.",
+		"tags": [
+			"vision",
+			"aging",
+			"eye health"
+		],
+		"conditions": [
+			"sleep apnea",
+			"obstructive sleep apnea"
+		],
+		"age_group": "geriatric",
+		"language": "en",
+		"literacy_level": "high",
+		"source": "UpToDate"
+	},
+	{
+		"id": "26",
+		"title": "COPD Management at Home",
+		"summary": "Learn more about how to improve digestive health with diet and lifestyle changes.",
+		"tags": [
+			"COPD",
+			"respiratory",
+			"breathing techniques"
+		],
+		"conditions": [
+			"COPD",
+			"emphysema",
+			"chronic bronchitis"
+		],
+		"age_group": "middle-aged",
+		"language": "en",
+		"literacy_level": "high",
+		"source": "American Academy of Pediatrics"
+	},
+	{
+		"id": "27",
+		"title": "A Guide to Living with Multiple Sclerosis",
+		"summary": "Learn more about how to understand modern hiv treatment and prevention options.",
+		"tags": [
+			"multiple sclerosis",
+			"neurology",
+			"symptom management"
+		],
+		"conditions": [
+			"multiple sclerosis"
+		],
+		"age_group": "middle-aged",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "American Academy of Pediatrics"
+	},
+	{
+		"id": "28",
+		"title": "Understanding HIV/AIDS Treatment Today",
+		"summary": "Explore current hepatitis C treatments and success rates.",
+		"tags": [
+			"infectious disease",
+			"HIV",
+			"treatment"
+		],
+		"conditions": [
+			"HIV/AIDS"
+		],
+		"age_group": "all ages",
+		"language": "en",
+		"literacy_level": "high",
+		"source": "American Cancer Society"
+	},
+	{
+		"id": "29",
+		"title": "A Guide to Understanding Blood Pressure Control",
+		"summary": "Learn about monitoring blood pressure and medication adherence.",
+		"tags": [
+			"pain management",
+			"chronic pain",
+			"non-medication"
+		],
+		"conditions": [
+			"HIV/AIDS"
+		],
+		"age_group": "geriatric",
+		"language": "ar",
+		"literacy_level": "low",
+		"source": "CDC"
+	},
+	{
+		"id": "30",
+		"title": "How to: Eating Disorder Warning Signs",
+		"summary": "Learn more about how to understand recommended cancer screening timelines by age and risk.",
+		"tags": [
+			"men's health",
+			"prostate",
+			"screening"
+		],
+		"conditions": [
+			"type 2 diabetes"
+		],
+		"age_group": "older adult",
+		"language": "en",
+		"literacy_level": "medium",
+		"source": "American Heart Association"
+	},
+	{
+		"id": "31",
+		"title": "Vision Problems in Aging",
+		"summary": "Important information to help you understand medication and therapy options for schizophrenia.",
+		"tags": [
+			"vision",
+			"aging",
+			"eye health"
+		],
+		"conditions": [
+			"cataracts",
+			"glaucoma",
+			"macular degeneration"
+		],
+		"age_group": "geriatric",
+		"language": "en",
+		"literacy_level": "medium",
+		"source": "National Institute of Mental Health"
+	},
+	{
+		"id": "32",
+		"title": "Prenatal Care Guidelines",
+		"summary": "Important information to help you follow dietary guidelines for kidney health and disease management.",
+		"tags": [
+			"pregnancy",
+			"prenatal care",
+			"women's health"
+		],
+		"conditions": [
+			"pregnancy",
+			"prenatal care"
+		],
+		"age_group": "adult",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "American Academy of Family Physicians"
+	},
+	{
+		"id": "33",
+		"title": "How to: Alzheimer's Disease: Early Signs",
+		"summary": "Important information to help you learn about autism spectrum disorder signs and support.",
+		"tags": [
+			"neurology",
+			"alzheimer's",
+			"memory"
+		],
+		"conditions": [
+			"alzheimer's disease",
+			"dementia"
+		],
+		"age_group": "infant",
+		"language": "en",
+		"literacy_level": "high",
+		"source": "UpToDate"
+	},
+	{
+		"id": "34",
+		"title": "How to: Prenatal Care Guidelines",
+		"summary": "Important information to help you prevent foot complications with proper diabetic foot care.",
+		"tags": [
+			"pregnancy",
+			"prenatal care",
+			"women's health"
+		],
+		"conditions": [
+			"pregnancy",
+			"prenatal care"
+		],
+		"age_group": "adult",
+		"language": "ar",
+		"literacy_level": "low",
+		"source": "American Academy of Family Physicians"
+	},
+	{
+		"id": "35",
+		"title": "Understanding Migraine Prevention Strategies",
+		"summary": "This resource helps you manage fibromyalgia pain with multimodal approaches.",
+		"tags": [
+			"cancer",
+			"screening",
+			"prevention"
+		],
+		"conditions": [
+			"migraine",
+			"chronic headache"
+		],
+		"age_group": "infant",
+		"language": "en",
+		"literacy_level": "high",
+		"source": "MedlinePlus"
+	},
+	{
+		"id": "36",
+		"title": "Parkinson's Disease Care",
+		"summary": "Learn more about how to follow prenatal care guidelines for a healthy pregnancy.",
+		"tags": [
+			"neurology",
+			"parkinson's",
+			"caregiving"
+		],
+		"conditions": [
+			"parkinson's disease"
+		],
+		"age_group": "child",
+		"language": "zh",
+		"literacy_level": "medium",
+		"source": "Harvard Health"
+	},
+	{
+		"id": "37",
+		"title": "Schizophrenia Treatment Approaches",
+		"summary": "Important information to help you find ways to manage energy with chronic fatigue syndrome.",
+		"tags": [
+			"mental health",
+			"schizophrenia",
+			"psychiatric care"
+		],
+		"conditions": [
+			"schizophrenia"
+		],
+		"age_group": "infant",
+		"language": "es",
+		"literacy_level": "high",
+		"source": "Cleveland Clinic"
+	},
+	{
+		"id": "38",
+		"title": "Living with Hearing Loss",
+		"summary": "Learn more about how to maintain good oral health with proper brushing and flossing.",
+		"tags": [
+			"hearing loss",
+			"audiology",
+			"assistive devices"
+		],
+		"conditions": [
+			"cerebrovascular accident",
+			"brain attack"
+		],
+		"age_group": "infant",
+		"language": "en",
+		"literacy_level": "medium",
+		"source": "MedlinePlus"
+	},
+	{
+		"id": "39",
+		"title": "How to: Diabetic Foot Care",
+		"summary": "This resource helps you learn caregiving tips for people with parkinson's disease.",
+		"tags": [
+			"diabetes",
+			"foot care",
+			"complications"
+		],
+		"conditions": [
+			"anxiety disorder",
+			"generalized anxiety disorder"
+		],
+		"age_group": "infant",
+		"language": "es",
+		"literacy_level": "high",
+		"source": "CDC"
+	},
+	{
+		"id": "40",
+		"title": "How to: Prostate Health Basics",
+		"summary": "Follow dietary guidelines for kidney health and disease management.",
+		"tags": [
+			"men's health",
+			"prostate",
+			"screening"
+		],
+		"conditions": [
+			"prostate health",
+			"benign prostatic hyperplasia"
+		],
+		"age_group": "adolescent",
+		"language": "es",
+		"literacy_level": "low",
+		"source": "CDC"
+	},
+	{
+		"id": "41",
+		"title": "A Guide to Managing Chronic Fatigue",
+		"summary": "Important information to help you find ways to manage energy with chronic fatigue syndrome.",
+		"tags": [
+			"chronic fatigue",
+			"energy management",
+			"quality of life"
+		],
+		"conditions": [
+			"substance use disorder",
+			"addiction"
+		],
+		"age_group": "older adult",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "CDC"
+	},
+	{
+		"id": "42",
+		"title": "Understanding Managing Chronic Fatigue",
+		"summary": "Learn more about how to find ways to manage energy with chronic fatigue syndrome.",
+		"tags": [
+			"vision",
+			"aging",
+			"eye health"
+		],
+		"conditions": [
+			"cataracts",
+			"glaucoma",
+			"macular degeneration"
+		],
+		"age_group": "geriatric",
+		"language": "en",
+		"literacy_level": "medium",
+		"source": "NIH"
+	},
+	{
+		"id": "43",
+		"title": "Understanding Epilepsy First Aid",
+		"summary": "Important information to help you learn the difference between normal worry and anxiety disorders.",
+		"tags": [
+			"neurology",
+			"epilepsy",
+			"seizures"
+		],
+		"conditions": [
+			"epilepsy",
+			"seizure disorders"
+		],
+		"age_group": "adult",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "American Heart Association"
+	},
+	{
+		"id": "44",
+		"title": "Understanding Kidney Disease Diet",
+		"summary": "Important information to help you follow a gluten-free diet for celiac disease management.",
+		"tags": [
+			"digestive disorders",
+			"crohn's disease",
+			"diet"
+		],
+		"conditions": [
+			"tobacco use",
+			"nicotine dependence"
+		],
+		"age_group": "middle-aged",
+		"language": "zh",
+		"literacy_level": "low",
+		"source": "National Institute of Mental Health"
+	},
+	{
+		"id": "45",
+		"title": "Understanding Lupus Symptoms and Signs",
+		"summary": "Adapt to hearing loss with assistive devices and strategies.",
+		"tags": [
+			"autoimmune",
+			"lupus",
+			"chronic illness"
+		],
+		"conditions": [
+			"lupus",
+			"systemic lupus erythematosus"
+		],
+		"age_group": "adolescent",
+		"language": "zh",
+		"literacy_level": "high",
+		"source": "UpToDate"
+	},
+	{
+		"id": "46",
+		"title": "A Guide to Schizophrenia Treatment Approaches",
+		"summary": "Understand modern HIV treatment and prevention options.",
+		"tags": [
+			"mental health",
+			"schizophrenia",
+			"psychiatric care"
+		],
+		"conditions": [
+			"schizophrenia"
+		],
+		"age_group": "all ages",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "CDC"
+	},
+	{
+		"id": "47",
+		"title": "Breast Cancer Awareness",
+		"summary": "This resource helps you manage copd symptoms at home with these breathing techniques.",
+		"tags": [
+			"women's health",
+			"breast cancer",
+			"screening"
+		],
+		"conditions": [
+			"cancer",
+			"various types"
+		],
+		"age_group": "geriatric",
+		"language": "en",
+		"literacy_level": "high",
+		"source": "American Cancer Society"
+	},
+	{
+		"id": "48",
+		"title": "How to: Living with Multiple Sclerosis",
+		"summary": "Important information to help you learn caregiving tips for people with parkinson's disease.",
+		"tags": [
+			"multiple sclerosis",
+			"neurology",
+			"symptom management"
+		],
+		"conditions": [
+			"multiple sclerosis"
+		],
+		"age_group": "middle-aged",
+		"language": "en",
+		"literacy_level": "medium",
+		"source": "National Institute of Mental Health"
+	},
+	{
+		"id": "49",
+		"title": "How to: Eating Disorder Warning Signs",
+		"summary": "Learn more about how to understand age-related vision changes and treatment options.",
+		"tags": [
+			"COPD",
+			"respiratory",
+			"breathing techniques"
+		],
+		"conditions": [
+			"chronic pain"
+		],
+		"age_group": "all ages",
+		"language": "en",
+		"literacy_level": "medium",
+		"source": "Alzheimer's Association"
+	},
+	{
+		"id": "50",
+		"title": "How to: COPD Management at Home",
+		"summary": "Learn more about how to discover pain management techniques that don't rely on medication.",
+		"tags": [
+			"COPD",
+			"respiratory",
+			"breathing techniques"
+		],
+		"conditions": [
+			"COPD",
+			"emphysema",
+			"chronic bronchitis"
+		],
+		"age_group": "adult",
+		"language": "en",
+		"literacy_level": "medium",
+		"source": "MedlinePlus"
+	},
+	{
+		"id": "51",
+		"title": "How to: Understanding Blood Pressure Control",
+		"summary": "Important information to help you find foods that won't trigger crohn's disease symptoms.",
+		"tags": [
+			"mental health",
+			"anxiety",
+			"emotional wellness"
+		],
+		"conditions": [
+			"parkinson's disease"
+		],
+		"age_group": "infant",
+		"language": "en",
+		"literacy_level": "medium",
+		"source": "American Academy of Pediatrics"
+	},
+	{
+		"id": "52",
+		"title": "Understanding Migraine Prevention Strategies",
+		"summary": "Learn more about how to understand modern hiv treatment and prevention options.",
+		"tags": [
+			"neurology",
+			"migraine",
+			"headache"
+		],
+		"conditions": [
+			"migraine",
+			"chronic headache"
+		],
+		"age_group": "geriatric",
+		"language": "zh",
+		"literacy_level": "medium",
+		"source": "Arthritis Foundation"
+	},
+	{
+		"id": "53",
+		"title": "How to: Autism Spectrum Awareness",
+		"summary": "Learn more about how to learn about autism spectrum disorder signs and support.",
+		"tags": [
+			"developmental disorders",
+			"autism",
+			"pediatric"
+		],
+		"conditions": [
+			"concussion",
+			"traumatic brain injury"
+		],
+		"age_group": "young adult",
+		"language": "en",
+		"literacy_level": "high",
+		"source": "CDC"
+	},
+	{
+		"id": "54",
+		"title": "How to: HIV/AIDS Treatment Today",
+		"summary": "Learn more about how to understand prostate health screening recommendations by age.",
+		"tags": [
+			"infectious disease",
+			"HIV",
+			"treatment"
+		],
+		"conditions": [
+			"HIV/AIDS"
+		],
+		"age_group": "adolescent",
+		"language": "en",
+		"literacy_level": "high",
+		"source": "American Cancer Society"
+	},
+	{
+		"id": "55",
+		"title": "How to: Prostate Health Basics",
+		"summary": "This resource helps you understand how vaccines work and their importance for public health.",
+		"tags": [
+			"men's health",
+			"prostate",
+			"screening"
+		],
+		"conditions": [
+			"prostate health",
+			"benign prostatic hyperplasia"
+		],
+		"age_group": "adult",
+		"language": "fa",
+		"literacy_level": "low",
+		"source": "American Academy of Pediatrics"
+	},
+	{
+		"id": "56",
+		"title": "How to: Pregnancy Health Basics",
+		"summary": "This resource helps you understand recommended cancer screening timelines by age and risk.",
+		"tags": [
+			"pregnancy",
+			"prenatal care",
+			"women's health"
+		],
+		"conditions": [
+			"pregnancy",
+			"prenatal care"
+		],
+		"age_group": "adult",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "NIH"
+	},
+	{
+		"id": "57",
+		"title": "How to: COPD Management at Home",
+		"summary": "Important information to help you follow a gluten-free diet for celiac disease management.",
+		"tags": [
+			"COPD",
+			"respiratory",
+			"breathing techniques"
+		],
+		"conditions": [
+			"COPD",
+			"emphysema",
+			"chronic bronchitis"
+		],
+		"age_group": "young adult",
+		"language": "en",
+		"literacy_level": "high",
+		"source": "American Lung Association"
+	},
+	{
+		"id": "58",
+		"title": "How to: Sleep Apnea Treatments",
+		"summary": "This resource helps you manage fibromyalgia pain with multimodal approaches.",
+		"tags": [
+			"infectious disease",
+			"HIV",
+			"treatment"
+		],
+		"conditions": [
+			"sleep apnea",
+			"obstructive sleep apnea"
+		],
+		"age_group": "older adult",
+		"language": "en",
+		"literacy_level": "low",
+		"source": "National Institute of Mental Health"
+	}
+]
