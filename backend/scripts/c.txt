@@ -1,0 +1,6 @@
+# Start Backend
+docker-compose up --build
+
+# Seed articles
+docker-compose exec backend bash
+python scripts/seed_articles.py

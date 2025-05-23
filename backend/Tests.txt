@@ -1,3 +1,16 @@
+curl -k https: //localhost/health
+
+
+curl -X POST "http://localhost:8000/recommendtest" \
+-H "Content-Type: application/json" \
+-d '{
+  "description": "I have a headache and fever.",
+  "language": "English",
+  "literacy_level": "High",
+  "condition": "Flu"
+}'
+
+
 ❯ curl -X POST "http://localhost:8000/recommend?use_filters=false" \
 -H "Content-Type: application/json" \
 -d '{
