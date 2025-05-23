@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
+from typing import Optional
 
 app = FastAPI()
 
@@ -45,33 +46,40 @@ class UserProfile(BaseModel):
 
 
 @app.post("/recommend")
-def recommend(profile: UserProfile):
-    # Combine profile attributes into a single input text
+def recommend(profile: UserProfile, use_filters: Optional[bool] = True):
+    # Combine profile attributes into a single input text for semantic similarity
     input_text = f"{profile.condition}. {profile.language}. {profile.literacy_level}. {profile.age_group}. {profile.summary}"
     query_vec = model.encode(input_text)
 
-    # Perform the search in Qdrant
+    # Perform the search in Qdrant without filters
     results = client.search(
-        collection_name="articles", query_vector=query_vec.tolist(), limit=10
+        collection_name="articles",
+        query_vector=query_vec.tolist(),
+        limit=50,  # Retrieve more results to filter manually
     )
+
+    # Manually filter results based on language and literacy_level if use_filters is True
+    if use_filters:
+        results = [
+            result
+            for result in results
+            if result.payload.get("language") == profile.language
+            and result.payload.get("literacy_level") == profile.literacy_level
+        ]
 
     # Add weighted scoring based on profile attributes
     weighted_results = []
-    for result in results:
-        score = result.score
+    for result in results[:10]:  # Limit to top 10 after filtering
+        score = result.score  # Start with the semantic similarity score
 
-        # Apply weights to profile attributes
+        # Apply rule-based weights
         if profile.condition in result.payload.get("conditions", []):
             score += 1.0  # Increase score if condition matches
-        if profile.language == result.payload.get("language", ""):
-            score += 0.5  # Increase score if language matches
-        if profile.literacy_level == result.payload.get("literacy_level", ""):
-            score += 0.3  # Increase score if literacy level matches
         if profile.age_group == result.payload.get("age_group", ""):
-            score += 0.1  # Increase score if age group matches
+            score += 0.5  # Increase score if age group matches
 
         # Limit the score to 5 decimal places
-        score = round(score, 3)
+        score = round(score, 5)
 
         # Append the updated result with the new score
         weighted_results.append(
