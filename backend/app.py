@@ -62,13 +62,16 @@ def recommend(profile: UserProfile):
 
         # Apply weights to profile attributes
         if profile.condition in result.payload.get("conditions", []):
-            score += 0.5  # Increase score if condition matches
+            score += 1.0  # Increase score if condition matches
         if profile.language == result.payload.get("language", ""):
-            score += 0.3  # Increase score if language matches
+            score += 0.5  # Increase score if language matches
         if profile.literacy_level == result.payload.get("literacy_level", ""):
-            score += 0.2  # Increase score if literacy level matches
+            score += 0.3  # Increase score if literacy level matches
         if profile.age_group == result.payload.get("age_group", ""):
             score += 0.1  # Increase score if age group matches
+
+        # Limit the score to 5 decimal places
+        score = round(score, 3)
 
         # Append the updated result with the new score
         weighted_results.append(
