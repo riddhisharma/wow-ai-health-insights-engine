@@ -1,0 +1,754 @@
+❯ curl -X POST "http://localhost:8000/recommend?use_filters=false" \
+-H "Content-Type: application/json" \
+-d '{
+  "condition": "addiction",
+  "language": "en",
+  "literacy_level": "low",
+  "age_group": "infant",
+  "summary": "Looking for support resources for new mothers recovering from substance use."
+}'
+[
+  {
+    "id": "fd379070-681d-49ee-92fa-b0c8032d0829",
+    "score": 1.70053,
+    "payload": {
+      "id": "9217",
+      "title": "Substance Use Disorder Help",
+      "summary": "This resource helps you learn essential care for your newborn baby.",
+      "tags": [
+        "addiction",
+        "substance use",
+        "recovery"
+      ],
+      "conditions": [
+        "substance use disorder",
+        "addiction"
+      ],
+      "age_group": "geriatric",
+      "language": "en",
+      "literacy_level": "medium",
+      "source": "American Cancer Society"
+    }
+  },
+  {
+    "id": "eb565a34-8719-4518-a094-344d8d5a0644",
+    "score": 1.70053,
+    "payload": {
+      "id": "6401",
+      "title": "Substance Use Disorder Help",
+      "summary": "This resource helps you learn essential care for your newborn baby.",
+      "tags": [
+        "addiction",
+        "substance use",
+        "recovery"
+      ],
+      "conditions": [
+        "substance use disorder",
+        "addiction"
+      ],
+      "age_group": "geriatric",
+      "language": "en",
+      "literacy_level": "medium",
+      "source": "CDC"
+    }
+  },
+  {
+    "id": "dcdf987b-68b1-40db-857a-9c82d8761de2",
+    "score": 1.6901,
+    "payload": {
+      "id": "3737",
+      "title": "Understanding Substance Use Disorder Help",
+      "summary": "Learn essential care for your newborn baby.",
+      "tags": [
+        "addiction",
+        "substance use",
+        "recovery"
+      ],
+      "conditions": [
+        "substance use disorder",
+        "addiction"
+      ],
+      "age_group": "geriatric",
+      "language": "es",
+      "literacy_level": "high",
+      "source": "NIH"
+    }
+  },
+  {
+    "id": "72bcb379-aedc-4db1-8b79-9b5d3e255001",
+    "score": 0.70081,
+    "payload": {
+      "id": "2682",
+      "title": "Newborn Care Basics",
+      "summary": "Find treatment options for alcohol and drug addiction.",
+      "tags": [
+        "pediatrics",
+        "newborn care",
+        "infant health"
+      ],
+      "conditions": [
+        "newborn care"
+      ],
+      "age_group": "child",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "Cleveland Clinic"
+    }
+  },
+  {
+    "id": "1e4b7897-65d8-4e9c-aa59-02e8debeb802",
+    "score": 0.70081,
+    "payload": {
+      "id": "1431",
+      "title": "Newborn Care Basics",
+      "summary": "Find treatment options for alcohol and drug addiction.",
+      "tags": [
+        "pediatrics",
+        "newborn care",
+        "infant health"
+      ],
+      "conditions": [
+        "newborn care"
+      ],
+      "age_group": "child",
+      "language": "zh",
+      "literacy_level": "low",
+      "source": "Johns Hopkins Medicine"
+    }
+  },
+  {
+    "id": "d638b879-f27b-4aaa-8be4-2b2a87ed82c6",
+    "score": 0.69532,
+    "payload": {
+      "id": "8137",
+      "title": "Newborn Care Basics",
+      "summary": "Important information to help you find treatment options for alcohol and drug addiction.",
+      "tags": [
+        "pediatrics",
+        "newborn care",
+        "infant health"
+      ],
+      "conditions": [
+        "newborn care"
+      ],
+      "age_group": "child",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "American Heart Association"
+    }
+  },
+  {
+    "id": "e402f205-8232-497b-8f0d-1f824d6f23a6",
+    "score": 0.68516,
+    "payload": {
+      "id": "4491",
+      "title": "A Guide to Newborn Care Basics",
+      "summary": "Learn more about how to find treatment options for alcohol and drug addiction.",
+      "tags": [
+        "pediatrics",
+        "newborn care",
+        "infant health"
+      ],
+      "conditions": [
+        "newborn care"
+      ],
+      "age_group": "child",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "WebMD"
+    }
+  },
+  {
+    "id": "9729ecb9-ed73-4203-b0a1-a1c1c65dff82",
+    "score": 0.67856,
+    "payload": {
+      "id": "283",
+      "title": "How to: Prenatal Care Guidelines",
+      "summary": "Learn more about how to find treatment options for alcohol and drug addiction.",
+      "tags": [
+        "pregnancy",
+        "prenatal care",
+        "women's health"
+      ],
+      "conditions": [
+        "pregnancy",
+        "prenatal care"
+      ],
+      "age_group": "adult",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "Alzheimer's Association"
+    }
+  },
+  {
+    "id": "544dc200-0894-4c3b-8290-86bec13f08c7",
+    "score": 0.66982,
+    "payload": {
+      "id": "9205",
+      "title": "Understanding Prenatal Care Guidelines",
+      "summary": "Learn more about how to find treatment options for alcohol and drug addiction.",
+      "tags": [
+        "pregnancy",
+        "prenatal care",
+        "women's health"
+      ],
+      "conditions": [
+        "pregnancy",
+        "prenatal care"
+      ],
+      "age_group": "adult",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "American Academy of Pediatrics"
+    }
+  },
+  {
+    "id": "ef35fd40-be11-48b1-9d5f-188ac1a4fe58",
+    "score": 0.66683,
+    "payload": {
+      "id": "1232",
+      "title": "Understanding Prenatal Care Guidelines",
+      "summary": "Important information to help you find treatment options for alcohol and drug addiction.",
+      "tags": [
+        "pregnancy",
+        "prenatal care",
+        "women's health"
+      ],
+      "conditions": [
+        "pregnancy",
+        "prenatal care"
+      ],
+      "age_group": "adult",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "WebMD"
+    }
+  }
+]%
+❯ curl -X POST "http://localhost:8000/recommend?use_filters=true" \
+-H "Content-Type: application/json" \
+-d '{
+  "condition": "addiction",
+  "language": "en",
+  "literacy_level": "low",
+  "age_group": "infant",
+  "summary": "Looking for support resources for new mothers recovering from substance use."
+}'
+[
+  {
+    "id": "190b80de-5396-4a5c-89c2-40664f68ad26",
+    "score": 2.10674,
+    "payload": {
+      "id": "1",
+      "title": "A Guide to Substance Use Disorder Help",
+      "summary": "Learn more about how to follow essential health guidelines during pregnancy.",
+      "tags": [
+        "addiction",
+        "substance use",
+        "recovery"
+      ],
+      "conditions": [
+        "substance use disorder",
+        "addiction"
+      ],
+      "age_group": "infant",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "American Cancer Society"
+    }
+  },
+  {
+    "id": "4c4e31f2-ccf6-4183-841e-4bc5ed0f4659",
+    "score": 1.63793,
+    "payload": {
+      "id": "2942",
+      "title": "A Guide to Substance Use Disorder Help",
+      "summary": "Follow essential health guidelines during pregnancy.",
+      "tags": [
+        "addiction",
+        "substance use",
+        "recovery"
+      ],
+      "conditions": [
+        "substance use disorder",
+        "addiction"
+      ],
+      "age_group": "middle-aged",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "American Lung Association"
+    }
+  },
+  {
+    "id": "7d604f2e-9af3-4d57-ba04-0b7e8b3482c8",
+    "score": 1.59722,
+    "payload": {
+      "id": "6465",
+      "title": "Substance Use Disorder Help",
+      "summary": "Learn more about how to follow essential health guidelines during pregnancy.",
+      "tags": [
+        "addiction",
+        "substance use",
+        "recovery"
+      ],
+      "conditions": [
+        "substance use disorder",
+        "addiction"
+      ],
+      "age_group": "middle-aged",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "American Lung Association"
+    }
+  },
+  {
+    "id": "72bcb379-aedc-4db1-8b79-9b5d3e255001",
+    "score": 0.70081,
+    "payload": {
+      "id": "2682",
+      "title": "Newborn Care Basics",
+      "summary": "Find treatment options for alcohol and drug addiction.",
+      "tags": [
+        "pediatrics",
+        "newborn care",
+        "infant health"
+      ],
+      "conditions": [
+        "newborn care"
+      ],
+      "age_group": "child",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "Cleveland Clinic"
+    }
+  },
+  {
+    "id": "d638b879-f27b-4aaa-8be4-2b2a87ed82c6",
+    "score": 0.69532,
+    "payload": {
+      "id": "8137",
+      "title": "Newborn Care Basics",
+      "summary": "Important information to help you find treatment options for alcohol and drug addiction.",
+      "tags": [
+        "pediatrics",
+        "newborn care",
+        "infant health"
+      ],
+      "conditions": [
+        "newborn care"
+      ],
+      "age_group": "child",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "American Heart Association"
+    }
+  },
+  {
+    "id": "e402f205-8232-497b-8f0d-1f824d6f23a6",
+    "score": 0.68516,
+    "payload": {
+      "id": "4491",
+      "title": "A Guide to Newborn Care Basics",
+      "summary": "Learn more about how to find treatment options for alcohol and drug addiction.",
+      "tags": [
+        "pediatrics",
+        "newborn care",
+        "infant health"
+      ],
+      "conditions": [
+        "newborn care"
+      ],
+      "age_group": "child",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "WebMD"
+    }
+  },
+  {
+    "id": "9729ecb9-ed73-4203-b0a1-a1c1c65dff82",
+    "score": 0.67856,
+    "payload": {
+      "id": "283",
+      "title": "How to: Prenatal Care Guidelines",
+      "summary": "Learn more about how to find treatment options for alcohol and drug addiction.",
+      "tags": [
+        "pregnancy",
+        "prenatal care",
+        "women's health"
+      ],
+      "conditions": [
+        "pregnancy",
+        "prenatal care"
+      ],
+      "age_group": "adult",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "Alzheimer's Association"
+    }
+  },
+  {
+    "id": "544dc200-0894-4c3b-8290-86bec13f08c7",
+    "score": 0.66982,
+    "payload": {
+      "id": "9205",
+      "title": "Understanding Prenatal Care Guidelines",
+      "summary": "Learn more about how to find treatment options for alcohol and drug addiction.",
+      "tags": [
+        "pregnancy",
+        "prenatal care",
+        "women's health"
+      ],
+      "conditions": [
+        "pregnancy",
+        "prenatal care"
+      ],
+      "age_group": "adult",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "American Academy of Pediatrics"
+    }
+  },
+  {
+    "id": "ef35fd40-be11-48b1-9d5f-188ac1a4fe58",
+    "score": 0.66683,
+    "payload": {
+      "id": "1232",
+      "title": "Understanding Prenatal Care Guidelines",
+      "summary": "Important information to help you find treatment options for alcohol and drug addiction.",
+      "tags": [
+        "pregnancy",
+        "prenatal care",
+        "women's health"
+      ],
+      "conditions": [
+        "pregnancy",
+        "prenatal care"
+      ],
+      "age_group": "adult",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "WebMD"
+    }
+  },
+  {
+    "id": "a6a1e11e-814d-4770-aaff-b3d0619e3bc7",
+    "score": 0.62782,
+    "payload": {
+      "id": "5183",
+      "title": "Understanding Pregnancy Health Basics",
+      "summary": "Find treatment options for alcohol and drug addiction.",
+      "tags": [
+        "pregnancy",
+        "prenatal care",
+        "women's health"
+      ],
+      "conditions": [
+        "pregnancy"
+      ],
+      "age_group": "adult",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "WHO"
+    }
+  }
+]%
+❯
+curl -X POST "http://localhost:8000/recommend?use_filters=false" \
+-H "Content-Type: application/json" \
+-d '{
+  "condition": "diabetes",
+  "language": "en",
+  "literacy_level": "medium",
+  "age_group": "adult",
+  "summary": "Looking for support resources recovering from diabetes."
+}'
+[
+  {
+    "id": "2b215461-8330-4b35-a84e-1e33e662b21a",
+    "score": 0.60199,
+    "payload": {
+      "id": "6921",
+      "title": "How to: Managing Type 2 Diabetes",
+      "summary": "This resource helps you understand age-related vision changes and treatment options.",
+      "tags": [
+        "vision",
+        "aging",
+        "eye health"
+      ],
+      "conditions": [
+        "type 2 diabetes"
+      ],
+      "age_group": "geriatric",
+      "language": "pt",
+      "literacy_level": "high",
+      "source": "American Diabetes Association"
+    }
+  },
+  {
+    "id": "2db3527f-4643-4dcf-a312-1a13423dd941",
+    "score": 0.60079,
+    "payload": {
+      "id": "1405",
+      "title": "A Guide to Managing Type 2 Diabetes",
+      "summary": "This resource helps you understand age-related vision changes and treatment options.",
+      "tags": [
+        "diabetes",
+        "foot care",
+        "complications"
+      ],
+      "conditions": [
+        "type 2 diabetes"
+      ],
+      "age_group": "geriatric",
+      "language": "ur",
+      "literacy_level": "low",
+      "source": "American Diabetes Association"
+    }
+  },
+  {
+    "id": "19281e26-7c0c-49b8-922f-8a2dfbcb22fd",
+    "score": 0.58099,
+    "payload": {
+      "id": "5656",
+      "title": "Cancer Screening Guidelines",
+      "summary": "This resource helps you understand how lifestyle changes can help manage diabetes.",
+      "tags": [
+        "men's health",
+        "prostate",
+        "screening"
+      ],
+      "conditions": [
+        "cancer",
+        "various types"
+      ],
+      "age_group": "child",
+      "language": "ar",
+      "literacy_level": "low",
+      "source": "American Cancer Society"
+    }
+  },
+  {
+    "id": "86a54b28-f658-4447-b4d1-e838b560b39e",
+    "score": 0.57845,
+    "payload": {
+      "id": "925",
+      "title": "A Guide to HIV/AIDS Treatment Today",
+      "summary": "Important information to help you understand how lifestyle changes can help manage diabetes.",
+      "tags": [
+        "infectious disease",
+        "HIV",
+        "treatment"
+      ],
+      "conditions": [
+        "HIV/AIDS"
+      ],
+      "age_group": "older adult",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "UpToDate"
+    }
+  },
+  {
+    "id": "ca43ee52-15ed-4c9b-913c-8c87d5fa92c0",
+    "score": 0.57676,
+    "payload": {
+      "id": "8995",
+      "title": "Understanding Managing Chronic Fatigue",
+      "summary": "This resource helps you understand how lifestyle changes can help manage diabetes.",
+      "tags": [
+        "vision",
+        "aging",
+        "eye health"
+      ],
+      "conditions": [
+        "parkinson's disease"
+      ],
+      "age_group": "older adult",
+      "language": "en",
+      "literacy_level": "high",
+      "source": "WebMD"
+    }
+  },
+  {
+    "id": "9319f06b-8d49-45e9-9be1-9a9cf2217c5c",
+    "score": 0.57387,
+    "payload": {
+      "id": "6889",
+      "title": "A Guide to Managing Chronic Fatigue",
+      "summary": "Understand how lifestyle changes can help manage diabetes.",
+      "tags": [
+        "vision",
+        "aging",
+        "eye health"
+      ],
+      "conditions": [
+        "pregnancy"
+      ],
+      "age_group": "geriatric",
+      "language": "it",
+      "literacy_level": "low",
+      "source": "National Institute of Mental Health"
+    }
+  },
+  {
+    "id": "c3e7b0af-dedf-427c-899b-fc4e57e4cf90",
+    "score": 0.57387,
+    "payload": {
+      "id": "5096",
+      "title": "A Guide to Managing Chronic Fatigue",
+      "summary": "Understand how lifestyle changes can help manage diabetes.",
+      "tags": [
+        "chronic fatigue",
+        "energy management",
+        "quality of life"
+      ],
+      "conditions": [
+        "epilepsy",
+        "seizure disorders"
+      ],
+      "age_group": "older adult",
+      "language": "de",
+      "literacy_level": "low",
+      "source": "National Multiple Sclerosis Society"
+    }
+  },
+  {
+    "id": "44376430-8ed6-4b1d-9b9f-c111ebc431ff",
+    "score": 0.57361,
+    "payload": {
+      "id": "5506",
+      "title": "How to: Managing Type 2 Diabetes",
+      "summary": "This resource helps you find ways to manage energy with chronic fatigue syndrome.",
+      "tags": [
+        "vision",
+        "aging",
+        "eye health"
+      ],
+      "conditions": [
+        "type 2 diabetes"
+      ],
+      "age_group": "older adult",
+      "language": "en",
+      "literacy_level": "high",
+      "source": "American Diabetes Association"
+    }
+  },
+  {
+    "id": "832672bf-cc43-464d-8619-648002ccae12",
+    "score": 0.57331,
+    "payload": {
+      "id": "8765",
+      "title": "How to: Living with Multiple Sclerosis",
+      "summary": "This resource helps you understand how lifestyle changes can help manage diabetes.",
+      "tags": [
+        "multiple sclerosis",
+        "neurology",
+        "symptom management"
+      ],
+      "conditions": [
+        "multiple sclerosis"
+      ],
+      "age_group": "middle-aged",
+      "language": "en",
+      "literacy_level": "high",
+      "source": "American Cancer Society"
+    }
+  },
+  {
+    "id": "f91bd6f2-2617-4f11-bff6-63f4f2414ca1",
+    "score": 0.57197,
+    "payload": {
+      "id": "1492",
+      "title": "A Guide to Managing Type 2 Diabetes",
+      "summary": "This resource helps you find heart-healthy eating patterns that work for you.",
+      "tags": [
+        "diabetes",
+        "foot care",
+        "complications"
+      ],
+      "conditions": [
+        "type 2 diabetes"
+      ],
+      "age_group": "older adult",
+      "language": "en",
+      "literacy_level": "low",
+      "source": "American Diabetes Association"
+    }
+  }
+]%
+❯ curl -X POST "http://localhost:8000/recommend?use_filters=true" \
+-H "Content-Type: application/json" \
+-d '{
+  "condition": "diabetes",
+  "language": "en",
+  "literacy_level": "medium",
+  "age_group": "adult",
+  "summary": "Looking for support resources recovering from diabetes."
+}'
+[
+  {
+    "id": "15d51392-e92e-4cc8-b91b-52c3cca930e3",
+    "score": 0.57126,
+    "payload": {
+      "id": "5473",
+      "title": "Managing Type 2 Diabetes",
+      "summary": "This resource helps you understand how lifestyle changes can help manage diabetes.",
+      "tags": [
+        "diabetes",
+        "lifestyle",
+        "nutrition"
+      ],
+      "conditions": [
+        "type 2 diabetes"
+      ],
+      "age_group": "geriatric",
+      "language": "en",
+      "literacy_level": "medium",
+      "source": "American Diabetes Association"
+    }
+  },
+  {
+    "id": "9fc1d6c9-b284-4000-8346-fa333e12e19a",
+    "score": 0.56392,
+    "payload": {
+      "id": "1257",
+      "title": "Understanding Managing Type 2 Diabetes",
+      "summary": "This resource helps you understand how lifestyle changes can help manage diabetes.",
+      "tags": [
+        "diabetes",
+        "lifestyle",
+        "nutrition"
+      ],
+      "conditions": [
+        "type 2 diabetes"
+      ],
+      "age_group": "geriatric",
+      "language": "en",
+      "literacy_level": "medium",
+      "source": "American Diabetes Association"
+    }
+  },
+  {
+    "id": "45cfa35d-0959-456f-9888-d6c98b543f6b",
+    "score": 0.55843,
+    "payload": {
+      "id": "4804",
+      "title": "COPD Management at Home",
+      "summary": "This resource helps you understand how lifestyle changes can help manage diabetes.",
+      "tags": [
+        "COPD",
+        "respiratory",
+        "breathing techniques"
+      ],
+      "conditions": [
+        "COPD",
+        "emphysema",
+        "chronic bronchitis"
+      ],
+      "age_group": "geriatric",
+      "language": "en",
+      "literacy_level": "medium",
+      "source": "NIH"
+    }
+  }
+]%
