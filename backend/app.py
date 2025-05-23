@@ -78,6 +78,11 @@ def recommend(profile: UserProfile, use_filters: Optional[bool] = True):
         if profile.age_group == result.payload.get("age_group", ""):
             score += 0.5  # Increase score if age group matches
 
+        if profile.language == result.payload.get("language", ""):
+            score += 0.3  # Increase score if language matches
+        if profile.literacy_level == result.payload.get("literacy_level", ""):
+            score += 0.1  # Increase score if literacy level matches
+
         # Limit the score to 5 decimal places
         score = round(score, 5)
 
